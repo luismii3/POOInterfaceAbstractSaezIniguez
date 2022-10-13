@@ -6,12 +6,7 @@ public class Tronco extends Arbol{
     }
 
     @Override
-    public boolean soyRama() {
-        return false;
-    }
-
-    @Override
     public boolean soyTronco() {
-        return false;
+        return true;
     }
 }
